@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <div className="root">
 
         <header className="header root__section">
-              <img src="./images/logo.svg" alt="mesto logo" class="logo" />
+              <img src={logo} alt="mesto logo" class="logo" />
         </header>
 
         <div className="profile root__section">
