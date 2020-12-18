@@ -1,17 +1,7 @@
-import logo from './logo.svg';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Main from './components/Main';
 
-
-function App() {
+function Main() {
   return (
-    <div className="root">
-
-        <header className="header root__section">
-              <img src={logo} alt="mesto logo" class="logo" />
-        </header>
-
+    <main className='main'>
         <div className="profile root__section">
           <div className="user-info">
             <div className="user-info__photo"></div>
@@ -48,9 +38,8 @@ function App() {
             </form>
           </div>
         </div>
-
-    </div>
+    </main>
   );
 }
 
-export default App;
+export default Main;
