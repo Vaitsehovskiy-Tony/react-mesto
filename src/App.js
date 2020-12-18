@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
@@ -22,12 +21,11 @@ function App() {
         <div className="places-list root__section">
 
           <div className="place-card">
-            {/* <div 
+            <div 
             className="place-card__image" 
-            style="background-image: url(https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kamchatka.jpg)"
-            >
+            style={{backgroundImage: 'url(https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kamchatka.jpg)'}}>
               <button className="place-card__delete-icon"></button>
-            </div> */}
+            </div>
             <div className="place-card__description">
               <h3 className="place-card__name">Камчатка</h3>
               <button className="place-card__like-icon"></button>
