@@ -1,3 +1,6 @@
+import logo from '../logo.svg';
+
+
 function Header() {
   return (
     <header className="header root__section">
